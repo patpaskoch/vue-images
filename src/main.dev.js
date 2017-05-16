@@ -7,6 +7,7 @@ import lightbox from './lightbox'
 new Vue({
   el: '#app',
   template: '<lightbox :imgs="images" :modalclose="modalclose" :keyinput="keyinput" :mousescroll="mousescroll" :showclosebutton="showclosebutton" :showcaption="showcaption" :imagecountseparator="imagecountseparator" :showimagecount="showimagecount" :showthumbnails="showthumbnails"/>',
+
   data () {
     return {
       images: [
